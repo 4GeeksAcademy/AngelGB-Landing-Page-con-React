@@ -1,11 +1,12 @@
 import React from "react";
+import Boton from "./Boton";
 
-function Jumbotron() {
+function Jumbotron({titulo, parrafo}) {
     return (
         <div>
-            <h1>Titulo</h1>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <h1>{titulo}</h1>
+            <p>{parrafo}</p>
+            <Boton className= "btn btn-primary" texto= "clickando" />
         </div>
     )
 }

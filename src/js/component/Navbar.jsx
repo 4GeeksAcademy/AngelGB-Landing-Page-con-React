@@ -1,22 +1,22 @@
 import React from "react";
 
-function Navbar({titulo, }) {
+function Navbar({titulo, a1, a2, a3, a4}) {
     return (
         <div>
-            <nav class="navbar navbar-expand-md ">
-                <div class="container">
-                    <div><a class="navbar-brand" href="#"><h3>{titulo}</h3></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+            <nav className="navbar bg-dark navbar-expand-md">
+                <div className="container">
+                    <div><a className="navbar-brand text-white row align-items-center" href="#"><h4>{titulo}</h4></a>
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
                         </button>
                     </div>
                 </div>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
-                        <a class="nav-link active" aria-current="page" href="#">Services</a>
-                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                <div className="collapse navbar-collapse  text-end" id="navbarNavAltMarkup">
+                    <div className="navbar-nav ">
+                        <a className="nav-link active text-white" aria-current="page" href="#">{a1}</a>
+                        <a className="nav-link active text-white" aria-current="page" href="#">{a2}</a>
+                        <a className="nav-link active text-white" aria-current="page" href="#">{a3}</a>
+                        <a className="nav-link active text-white" aria-current="page" href="#">{a4}</a>
                     </div>
                 </div>
 

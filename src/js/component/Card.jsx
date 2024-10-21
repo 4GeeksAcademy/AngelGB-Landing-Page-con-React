@@ -5,14 +5,14 @@ import Boton from "./Boton"
 function Card({cardtitle, cardtext, imgurl, imgClassName, imgtext}) {
     return (
 
-            <div class="col">
-                <div class="card h-100">
+            <div className="col-3">
+                <div className="card h-100">
                 <img src={imgurl} className={imgClassName} alt={imgtext} />
-                    <div class="card-body">
-                        <h5 class="card-title">{cardtitle}</h5>
-                        <p class="card-text">{cardtext}</p>
+                    <div className="card-body">
+                        <h5 className="card-title">{cardtitle}</h5>
+                        <p clasNameclassNames="card-text">{cardtext}</p>
                     </div>
-                    <div class="card-footer col text-center">
+                    <div className="card-footer col text-center">
                         <Boton className= "btn btn-primary" texto= "clicki" />
                     </div>
                 </div>

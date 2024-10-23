@@ -6,7 +6,7 @@ function Jumbotron({titulo, parrafo}) {
         <div className="my-4">
             <h1><strong>{titulo}</strong></h1>
             <p>{parrafo}</p>
-            <Boton className= "btn btn-primary" texto= "clickando" />
+            <Boton className= "btn btn-primary" texto= "Ir al foro" />
         </div>
     )
 }
